@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap');
 
-
 *{
     padding: 0;
     margin: 0;
@@ -22,26 +21,30 @@ a, a:visited, a:focus, a:link{
     margin-right: 6px;
 }
 
+.txtLi::before{
+    transition: 4s;
+}
+
 .txtLI:hover{
-    transition: transform .1s;
+    transition: 0.2s;
     transform: scale(1.1);
 }
 
-.txtLi:after{
-    transition: transform 0.1s;
+.txtLi{
+    transition: 0.3s;
 }
 
 
 .hyperliens{
     display: inline-flex;
     list-style-type: none;
+    margin-right: 10px;
 }
 
 .navbar{
     z-index: 100;
     display: flex;
     justify-content: space-between;
-    padding: 23px;
     background: #303030;
     box-shadow: 10px 10px 20px #202020, -10px -10px 20px #404040;
     align-items: center;
@@ -50,26 +53,23 @@ a, a:visited, a:focus, a:link{
 }
 
 .logo{
-    height: 62px;
-    width: 56px;
+    height: 125px;
 }
 
 /* NEON EFFET */
 .titre-main{
     font-family: "Yellowtail", sans-serif;
-    color: #FFFFFF;
-    font-style: italic;
     font-size: 70px;
     color: #fff;
     text-shadow:
         0 0 7px #fff,
         0 0 10px #fff,
         0 0 21px #fff,
-        0 0 42px #bc13fe,
-        0 0 82px #bc13fe,
-        0 0 92px #bc13fe,
-        0 0 102px #bc13fe,
-        0 0 151px #bc13fe;
+        0 0 42px #fff,
+        0 0 82px #fff,
+        0 0 92px #fff,
+        0 0 102px #fff,
+        0 0 151px #fff;
 }
 h1{
     animation: pulsate 0.11s ease-in-out infinite alternate
