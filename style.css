@@ -235,7 +235,7 @@ h1{
 .projetConteneur{
     display: flex;
     justify-content: center;
-    margin-bottom: 280px;
+    margin-bottom: 400px;
     flex-wrap: wrap;
 }
 
@@ -247,7 +247,6 @@ h1{
     margin: 0;
     z-index: 90;
     transition: 0.5s;
-    
 }
 
 .cards::after{
@@ -310,3 +309,41 @@ h1{
     height: auto;
 }
 /* FIN CARDS */
+
+/* FOOTER */
+.conteneur-contact{
+    margin-bottom: 200px;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+}
+
+.logoSVG{
+    height: 50px;
+    width: 50px;
+    -webkit-transition: all .15s ease-in-out;
+    border-radius: 50%;
+    transition: all .15s ease-in-out;
+    color: #ffffff;
+    box-shadow: 0 0 10px 0 #bc13fe inset, 0 0 20px 2px #bc13fe;
+    border: 3px solid #bc13fe;
+    margin: 8px;
+}
+
+.logoSVG:hover{
+    box-shadow: none;
+    border: 3px solid #bc13fe;
+}
+
+.titre3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.txtContact{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* FIN FOOTER */
