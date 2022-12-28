@@ -44,11 +44,11 @@ a, a:visited, a:focus, a:link{
     align-items: center;
     position: fixed;
     width: -webkit-fill-available;
-    transition: 0.5s;
+    transition: 0.4s;
 }
 
 .navbar:hover{
-    transition: 0.5s;
+    transition: 0.4s;
     opacity: 100%;
     box-shadow: 10px 10px 20px #141414, -10px -10px 20px #000000;
 }
@@ -222,7 +222,7 @@ h1{
 
 .btn12{
     float: right;
-    margin-top: -72px;
+    margin-top: -40px;
     margin-right: 17px;
 }
 
@@ -236,16 +236,17 @@ h1{
     display: flex;
     justify-content: center;
     margin-bottom: 280px;
+    flex-wrap: wrap;
 }
 
 /* CARDS */
 .cards{
-    display: flex;
     width: fit-content;
     position: relative;
     padding: 0;
     margin: 0;
-    z-index: 100;
+    z-index: 90;
+    transition: 0.5s;
     
 }
 
@@ -259,6 +260,7 @@ h1{
     height: 100%;
     background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
     z-index: 1;
+    border-radius: 22px;
 }
 
 .cards:hover{
