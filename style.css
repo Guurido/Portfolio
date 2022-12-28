@@ -90,9 +90,9 @@ h1{
     100% {
   
         text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
+        0 0 4px #bc13fe,
+        0 0 11px #bc13fe,
+        0 0 19px #bc13fe,
         0 0 40px #bc13fe,
         0 0 80px #bc13fe,
         0 0 90px #bc13fe,
@@ -103,9 +103,9 @@ h1{
     0% {
 
         text-shadow:
-        0 0 4px #fff,
-        0 0 10px #fff,
-        0 0 18px #fff,
+        0 0 4px #bc13fe,
+        0 0 10px #bc13fe,
+        0 0 18px #bc13fe,
         0 0 38px #bc13fe,
         0 0 73px #bc13fe,
         0 0 80px #bc13fe,
@@ -151,8 +151,9 @@ h1{
 
 /* BUTTON */
 .type1{
-    color: #8fa1a6;
+    color: #ffffff;
 }
+
 .type1::after, .type1::before{
     content: '';
     display: block;
@@ -161,23 +162,25 @@ h1{
     height: 20%;
     border: 2px solid;
     transition: all 0.6s ease;
-    border-radius: 2px;
+    border-radius: 2px;   
 }
+
 .type1::after{
     bottom: 0;
     right: 0;
     border-top-color: transparent;
     border-left-color: transparent;
-    border-bottom-color: #8fa1a6;
-    border-right-color: #8fa1a6;
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
 }
+
 .type1::before{
     top: 0;
     left: 0;
     border-bottom-color: transparent;
     border-right-color: transparent;
-    border-top-color: #8fa1a6;
-    border-left-color: #8fa1a6;
+    border-top-color: #ffffff;
+    border-left-color: #ffffff;
 }
 .type1:hover:after, .type1:hover:before{
     width: 100%;
