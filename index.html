@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHATELET Yanis - Étudiant en BUT MMI</title>
+    <title>CHATELET Yanis</title>
     <link rel="stylesheet" href="style.css">
     <script src="scripts.js" defer></script>
     <meta name="description" content="Je m'appelle Yanis CHATELET, je suis un étudiant en BUT Métiers du Multimédia et de l'Internet. Sur mon site vous pourrez voir mes créations/projets.">
     <link rel="icon" href="medias/YC-Icone.png">
     <link href='https://fonts.googleapis.com/css?family=Yellowtail:400' rel='stylesheet' type='text/css'>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
 </head>
 <body>
     <header id="accueil">
@@ -20,12 +21,14 @@
                     <li class="txtLI"><a href="#accueil">Accueil&nbsp;&nbsp;</a></li>
                     <li class="txtLI"><a href="#wai">Qui suis-je ?&nbsp;&nbsp;</a></li> 
                     <li class="txtLI"><a href="#projets">Projets&nbsp;&nbsp;</a></li>
-                    <li class="txtLI"><a href="#contact">Contact</a></li>
+                    <li class="txtLI"><a href="#contact">Contact&nbsp;&nbsp;</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="conteneur">
+
+        <!-- ACCUEIL -->
         <div class="p-conteneur">
             <h1 class="titre-main">SALUT !</h1>
             <p class="txtPresentation">
@@ -37,23 +40,40 @@
                 </button>
             </div>
         </div>
+
+        <!-- À Propos -->
         <section id="wai">
             <div class="conteneur-wai">
-                <h2 class="a-propos">À propos de moi</h2>
+                <h2 class="titreh2 titre1">À propos de moi</h2>
                 <div class="sousConteneur">
                     <img src="medias/CHATELET-Yanis.jpg" alt="CHATELET Yanis" class="pp">
                     <p class="txt-aPropos">
-                        Je m'appelle Yanis CHATELET, j'ai 19 ans et je suis actuellement étudiant en deuxième année de Bachelor Universitaire de Technologie Métiers du Multimédia et de l'Internet à l'IUT de Cergy-Pontoise sur le site de Sarcelles (34 Bd Henri Bergson).
-                        <br> <br> Je suis diplômé du BAC Pro Logistique avec mention "assez bien" en 2021, pendant lequel j'ai réalisé 24 semaines stage dans le domaine de la Logistique. Grace a ces stages j'ai pu avoir une vraie vision du monde du travail et ces stages m'ont permis d'avoir beaucoup d'expériences mais aussi d'obtenir un CDD à temps partiel de 3 mois.
-                        Avec ces stages j'ai pu avoir une vraie vision du monde du travail et ils m'ont permis d'avoir beaucoup d'expérience en entreprise.
-                        <br> <br> Cependant, j'ai toujours préféré le domaine de l'informatique, plus précisément, la programmation, c'est pourquoi je me dirige vers le BUT MMI. J'ai appris le codage à 16 ans en autodidacte, et je suis tombé amoureux de la programmation. 
-                        J'ai pu développer un jeu textuel à choix multiples.
-                    </p>
-                </div>
-                <div class="btn12">
-                    <a href="medias/CHATELET-Yanis_CV.pdf" target="_blank"><button class="button type1" type="button">
-                        CV
-                    </button></a>
+                    Je m'appelle Yanis CHATELET, j'ai 19 ans et je suis actuellement étudiant en deuxième année de Bachelor Universitaire de Technologie Métiers du Multimédia et de l'Internet à l'IUT de Cergy-Pontoise sur le site de Sarcelles (34 Bd Henri Bergson).
+                    <br> <br> Je suis diplômé du BAC Pro Logistique avec mention "assez bien" en 2021, pendant lequel j'ai réalisé 24 semaines stage dans le domaine de la Logistique. Grace a ces stages j'ai pu avoir une vraie vision du monde du travail et ces stages m'ont permis d'avoir beaucoup d'expériences mais aussi d'obtenir un CDD à temps partiel de 3 mois.
+                    Avec ces stages j'ai pu avoir une vraie vision du monde du travail et ils m'ont permis d'avoir beaucoup d'expérience en entreprise.
+                    <br> <br> Cependant, j'ai toujours préféré le domaine de l'informatique, plus précisément, la programmation, c'est pourquoi je me dirige vers le BUT MMI. J'ai appris le codage à 16 ans en autodidacte, et je suis tombé amoureux de la programmation. 
+                    J'ai pu développer un jeu textuel à choix multiples.
+                </p>
+            </div>
+            <div class="btn12">
+                <a href="medias/CHATELET-Yanis_CV.pdf" target="_blank"><button class="button type1" type="button">
+                    CV
+                </button></a>
+            </div>
+        </section>
+        <section id="projets">
+            <h2 class="titreh2 titre2">Projets</h2>
+            <div class="projetConteneur">
+                <div class="cards">
+                    <a href=""><img src="medias/SBWSC.png" alt="Page Instagram" class="card">
+                        <figcaption class="wp-caption-text">This is a caption text</figcaption>
+                    </a>
+                    <a href="">
+                        <img src="medias/Bootstrap-Rogner.png" alt="Page Bootstrap" class="card">
+                    </a>
+                    <a href="">
+                        <img src="medias/miniature.webp" alt="Miniature vidéo" class="card">
+                    </a>
                 </div>
             </div>
         </section>
