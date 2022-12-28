@@ -172,7 +172,7 @@ h1{
 
 .conteneur-wai{
     margin-top: 38px;
-    margin-bottom: 150px;
+    margin-bottom: 400px;
     padding: 30px;
 }
 
@@ -321,12 +321,18 @@ h1{
 .logoSVG{
     height: 50px;
     width: 50px;
-    -webkit-transition: all .15s ease-in-out;
-    border-radius: 50%;
     transition: all .15s ease-in-out;
     color: #ffffff;
-    box-shadow: 0 0 10px 0 #bc13fe inset, 0 0 20px 2px #bc13fe;
-    border: 3px solid #bc13fe;
+    animation: pulsate 1.5s infinite alternate;  
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    padding: 6px;
+    box-shadow: 0 0 .2rem #fff,
+              0 0 .2rem #fff,
+              0 0 2rem #bc13fe,
+              0 0 0.8rem #bc13fe,
+              0 0 2.8rem #bc13fe,
+              inset 0 0 1.3rem #bc13fe;
     margin: 8px;
 }
 
