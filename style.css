@@ -343,24 +343,24 @@ h1{
 .logoSVG{
     height: 50px;
     width: 50px;
-    transition: all .15s ease-in-out;
-    color: #ffffff;
-    animation: pulsate 1.5s infinite alternate;  
+    margin: 8px;
     border: 0.2rem solid #fff;
     border-radius: 50%;
     padding: 6px;
+}
+
+.logoSVG:hover{
+    border: 0.2rem solid #fff;
+    border-radius: 50%;
+    padding: 6px;
+    transition: 0.2s;
+    border-radius: 50%;
     box-shadow: 0 0 .2rem #fff,
         0 0 .2rem #fff,
         0 0 2rem #bc13fe,
         0 0 0.8rem #bc13fe,
         0 0 2.8rem #bc13fe,
         inset 0 0 1.3rem #bc13fe;
-    margin: 8px;
-}
-
-.logoSVG:hover{
-    box-shadow: none;
-    border: 3px solid #bc13fe;
 }
 
 .titre3{
