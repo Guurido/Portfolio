@@ -9,9 +9,12 @@
 
 
 body{
-    background-color: #303030;;
+    background-color: #303030;
 }
 
+.aPropos{
+    scroll-snap-align: start;
+}
 
 a, a:visited, a:focus, a:link{
     text-decoration: none;
@@ -32,6 +35,7 @@ a, a:visited, a:focus, a:link{
     display: inline-flex;
     list-style-type: none;
     margin-right: 10px;
+    cursor: pointer;
 }
 
 .navbar{
@@ -45,6 +49,11 @@ a, a:visited, a:focus, a:link{
     position: fixed;
     width: -webkit-fill-available;
     transition: 0.4s;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .navbar:hover{
@@ -111,6 +120,12 @@ h1{
     align-items: flex-start;
     padding: 100px;
     margin-top: 175px;
+    margin-bottom: 300px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 /* FIN NEON EFFECT */
 
@@ -172,7 +187,7 @@ h1{
 
 .conteneur-wai{
     margin-top: 38px;
-    margin-bottom: 400px;
+    margin-bottom: 300px;
     padding: 30px;
 }
 
@@ -237,6 +252,10 @@ h1{
     justify-content: center;
     margin-bottom: 400px;
     flex-wrap: wrap;
+}
+
+.project{
+    scroll-snap-align: start;
 }
 
 /* CARDS */

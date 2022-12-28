@@ -18,8 +18,8 @@
             <nav class="effect-3">                
                 <ul class="hyperliens">
                     <li class="txtLI"><a href="#accueil">Accueil&nbsp;&nbsp;</a></li>
-                    <li class="txtLI"><a href="#wai">Qui suis-je ?&nbsp;&nbsp;</a></li> 
-                    <li class="txtLI"><a href="#projets">Projets&nbsp;&nbsp;</a></li>
+                    <li class="txtLI"><a onclick="scrollElement()">Qui suis-je ?&nbsp;&nbsp;</a></li> 
+                    <li class="txtLI"><a onclick="scrollElement2()">Projets&nbsp;&nbsp;</a></li>
                     <li class="txtLI"><a href="#contact">Contact&nbsp;&nbsp;</a></li>
                 </ul>
             </nav>
@@ -31,7 +31,7 @@
         <div class="p-conteneur">
             <h1 class="titre-main">SALUT !</h1>
             <p class="txtPresentation">
-                Bienvenue sur mon site portfolio ! <br> Étudiant en deuxième année de BUT Métiers du Multimédia et de l'Internet.
+                Bienvenue sur mon site portfolio ! 👋 <br> Étudiant en deuxième année de BUT Métiers du Multimédia et de l'Internet.
             </p>
             <div class="container">
                 <button class="button type1" type="button" onclick="location.href='#wai'">
@@ -41,9 +41,9 @@
         </div>
 
         <!-- À Propos -->
-        <section id="wai">
+        <section class="aPropos">
             <div class="conteneur-wai">
-                <h2 class="titreh2 titre1">À propos de moi</h2>
+                <h2 id="wai" class="titreh2 titre1">À propos de moi</h2>
                 <div class="sousConteneur">
                     <img src="medias/CHATELET-Yanis.jpg" alt="CHATELET Yanis" class="pp">
                     <p class="txt-aPropos">
@@ -62,8 +62,8 @@
         </section>
 
         <!-- Projets -->
-        <section id="projets">
-            <h2 class="titreh2 titre2">Projets</h2>
+        <section class="project">
+            <h2 id="projets" class="titreh2 titre2">Projets</h2>
             <div class="projetConteneur">
                 <a href="">
                     <div class="cards">
@@ -93,8 +93,8 @@
         </section>
     </main>
     <footer>
-        <section id="contact">
-            <h2 class="titreh2 titre3">Contact</h2>
+        <section class="footer">
+            <h2 id="contact" class="titreh2 titre3">Contact</h2>
             <p class="txtContact">Vous pouvez me contacter ci-dessous 👇</p>
             <div class="conteneur-contact">
                 <a href="https://github.com/Guurido" target="_blank">
