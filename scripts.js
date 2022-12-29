@@ -14,6 +14,7 @@ function scrollElement0(){
   window.scroll(0, Position(document.getElementById("accueil")));
 }
 
+
 function Position(obj){
   var currenttop = -150;
   if (obj.offsetParent){
