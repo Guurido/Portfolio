@@ -24,3 +24,7 @@ function Position(obj){
    return [currenttop];
   }
 }
+
+function openNewTab() {
+  window.open("https://github.com/Guurido/Front-Insta");
+}
