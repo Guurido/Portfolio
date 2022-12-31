@@ -90,6 +90,11 @@ a, a:visited, a:focus, a:link{
     padding: 33px;
     margin-top: 25px;
     flex-direction: row;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .conteneurBtn{
