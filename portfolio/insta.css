@@ -8,6 +8,7 @@ body{
     overflow: hidden;
 }
 
+/* NAVBAR */
 .hyperliens{
     display: inline-flex;
     list-style-type: none;
@@ -56,6 +57,7 @@ a, a:visited, a:focus, a:link{
     transition: 0.2s;
     transform: scale(1.1);
 }
+/* FIN NAVBAR */
 
 .image{
     height: 386px;
@@ -72,6 +74,15 @@ a, a:visited, a:focus, a:link{
         inset 0 0 1.3rem #bc13fe;
 }
 
+
+.main-conteneur{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+    margin-top: 25px;
+}
+
 .titre{
     font-size: 45px;
     color: #FFFFFF;
@@ -82,23 +93,6 @@ a, a:visited, a:focus, a:link{
 .txt{
     color: #FFFFFF;
     width: 700px;
-}
-
-.conteneur{
-    display: flex;
-    justify-content: space-around;
-    padding: 33px;
-    margin-top: 25px;
-    flex-direction: row;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.conteneurBtn{
-    display: flex;
 }
 
 .logoSVG{
@@ -135,6 +129,7 @@ a, a:visited, a:focus, a:link{
     margin: 5px;
 }
 
+
 .wave{
-    margin-top: -85px;
+    margin-top: -21px;
 }
