@@ -91,7 +91,7 @@ body::-webkit-scrollbar-thumb {
 
 .wave{
     margin-bottom: 100px;
-    margin-top: -219px;
+    margin-top: -152px;
 }
 
 /* NAVBAR */
@@ -107,7 +107,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
     background: #303030;
-    opacity: 90%;
+    opacity: 99%;
     box-shadow: 10px 10px 20px #202020, -10px -10px 20px #404040;
     align-items: center;
     position: fixed;
