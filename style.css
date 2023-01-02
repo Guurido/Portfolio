@@ -120,6 +120,15 @@ body::-webkit-scrollbar-thumb {
     user-select: none;
 }
 
+.drapeau{
+    height: 28px;
+    width: 25px;
+}
+
+.drapeau:hover{
+    opacity: 80%;
+}
+
 .navbar:hover{
     transition: 0.4s;
     opacity: 100%;
