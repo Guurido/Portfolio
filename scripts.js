@@ -1,3 +1,4 @@
+// POSITION SCROLL
 function scrollElement(){
   window.scroll(0, Position(document.getElementById("wai")));
 }
@@ -27,4 +28,20 @@ function Position(obj){
 
 function openNewTab() {
   window.open("https://github.com/Guurido/Front-Insta");
+}
+
+// SIDENAV
+var sidenav = document.getElementById("mySidenav");
+var openBtn = document.getElementById("openBurger");
+var closeBtn = document.getElementById("closeBtn");
+
+openBtn.onclick = openNav;
+closeBtn.onclick = closeNav;
+
+function openNav() {
+  sidenav.classList.add("active");
+}
+
+function closeNav() {
+  sidenav.classList.remove("active");
 }

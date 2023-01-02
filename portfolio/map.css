@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap');
 
+@media only screen and (max-width: 1173px){
+    body{
+        overflow: auto!important;
+    }
+    .image{
+        height: 252px!important;
+        width: 487px!important;
+    }
+}
+
 body{
     padding: 0;
     margin: 0;
@@ -127,9 +137,4 @@ a, a:visited, a:focus, a:link{
     font-size: 15px;
     color: #FFFFFF;
     margin: 5px;
-}
-
-
-.wave{
-    margin-top: -57px;
 }
