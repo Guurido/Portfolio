@@ -1,5 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap');
 
+@media only screen and (max-width: 1173px) { 
+    .sousConteneur{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: -10px;
+        justify-content: center;
+    }
+    .txt-aPropos {
+        text-align: justify!important;
+    }
+    .btn12{
+        margin-top: 7px!important;
+    }
+    .titre1 {
+        margin-bottom: 35px!important;
+    }
+    .pp{
+        margin-bottom: 40px;
+        margin-right: 0px!important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .titre-main{
+        font-size: 55px!important;
+    }
+    .txtPresentation{
+        font-size: 18px!important;
+    }
+    .titreh2{
+        font-size: 39px;
+    }
+    .titre1{
+        margin-bottom: 25px;
+        display: contents;
+    }
+    .conteneur-wai{
+        padding: 0px;
+    }
+    .txt-aPropos{
+        text-align: justify;
+        font-size: 15px;
+    }
+    .pp{
+        margin-right: 0px;
+    }
+    .btn12{
+        margin-bottom: 25px!important;
+    }
+    .button{
+        font-size: 12px!important;
+        padding: 16px 10px!important;
+        margin: 24px 1px!important;
+    }
+}
+
+
 *{
     padding: 0;
     margin: 0;
