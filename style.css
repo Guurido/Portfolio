@@ -1,75 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap');
 
-@media only screen and (max-width: 1173px) { 
-    .navbar{
-        position: initial!important;
-    }
-    .p-conteneur{
-        margin-top: -30px!important;
-    }
-    .sousConteneur{
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        margin-bottom: -10px;
-        justify-content: center;
-    }
-    .txt-aPropos {
-        text-align: justify!important;
-    }
-    .btn12{
-        margin-top: 7px!important;
-    }
-    .titre1 {
-        margin-bottom: 35px!important;
-    }
-    .pp{
-        margin-bottom: 40px;
-        margin-right: 0px!important;
-    }
-    .svgBurger{
-        display: flex!important;
-    }
-    .txtLI{
-        display: none!important;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .titre-main{
-        font-size: 55px!important;
-    }
-    .txtPresentation{
-        font-size: 18px!important;
-    }
-    .titreh2{
-        font-size: 39px;
-    }
-    .titre1{
-        margin-bottom: 25px;
-        display: contents;
-    }
-    .conteneur-wai{
-        padding: 0px;
-    }
-    .txt-aPropos{
-        text-align: justify;
-        font-size: 15px;
-    }
-    .pp{
-        margin-right: 0px;
-    }
-    .btn12{
-        margin-bottom: 25px!important;
-    }
-    /*.button{
-        font-size: 12px!important;
-        padding: 16px 10px!important;
-        margin: 24px 1px!important;
-    }*/
-}
-
-
 *{
     padding: 0;
     margin: 0;
@@ -124,7 +54,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     position: fixed;
     width: -webkit-fill-available;
-    transition: 0.4s;
+    transition: 0.3s;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -146,7 +76,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .navbar:hover{
-    transition: 0.4s;
+    transition: 0.3s;
     opacity: 100%;
     box-shadow: 10px 10px 20px #141414, -10px -10px 20px #000000;
 }
@@ -421,14 +351,6 @@ h1{
     transition: 0.5s;
 }
 
-.card:hover{
-    transform: scale(1.2);
-    transition: 0.5s;
-    -webkit-box-shadow: -12px 21px 24px 6px rgba(0, 0, 0, 0.75); 
-    box-shadow: -12px 21px 24px 6px rgba(0, 0, 0, 0.75);
-    opacity: 1;
-}
-
 .wp-caption-text {
     display: block;
     position: absolute;
@@ -471,7 +393,6 @@ h1{
 
 .logoSVG:hover{
     border: 0.2rem solid #fff;
-    border-radius: 50%;
     padding: 6px;
     transition: 0.3s;
     border-radius: 50%;
@@ -522,3 +443,99 @@ h1{
     margin-bottom: 55px;
 }
 /* FIN FOOTER */
+
+/* MEDIAS QUERY */
+@media only screen and (max-width: 1173px) { 
+    .navbar{
+        position: initial!important;
+    }
+    .p-conteneur{
+        margin-top: -30px!important;
+    }
+    .sousConteneur{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: -10px;
+        justify-content: center;
+    }
+    .txt-aPropos {
+        text-align: justify!important;
+    }
+    .btn12{
+        margin-top: 7px!important;
+    }
+    .titre1 {
+        margin-bottom: 35px!important;
+    }
+    .pp{
+        margin-bottom: 40px;
+        margin-right: 0px!important;
+    }
+    .svgBurger{
+        display: flex!important;
+    }
+    .txtLI{
+        display: none!important;
+    }
+}
+@media only screen and (max-width: 600px){
+    .wave{
+        display: none!important;
+    }
+}
+@media only screen and (max-width: 500px){
+    .titre-main{
+        font-size: 55px!important;
+    }
+    .txtPresentation{
+        margin-top: 33px;
+        font-size: 20px!important;
+    }
+    .titreh2{
+        font-size: 39px;
+    }
+    .titre1{
+        margin-bottom: 30px!important;
+        text-align: center;
+    }
+    .conteneur-wai{
+        padding: 0px;
+    }
+    .txt-aPropos{
+        text-align: justify;
+        font-size: 15px;
+        padding-left: 18px;
+    }
+    .pp{
+        margin-right: 0px;
+        height: 267px;
+        width: 208px;
+    }
+    .btn12{
+        margin-bottom: 25px!important;
+    }
+    .btn1{
+        display: none!important;
+    }
+    .cards:hover{
+        transform: none!important;
+    }
+    .logoSVG{
+        height: 50px;
+        width: 50px;
+        margin: 8px;
+        border: 0.2rem solid #fff;
+        border-radius: 50%;
+        padding: 6px;
+        transition: 0.2s;
+        border-radius: 50%;
+        box-shadow: 0 0 .2rem #fff,
+            0 0 .2rem #fff,
+            0 0 2rem #bc13fe,
+            0 0 0.8rem #bc13fe,
+            0 0 2.8rem #bc13fe,
+            inset 0 0 1.3rem #bc13fe;
+    }
+}
+/* FIN MEDIAS QUERY */

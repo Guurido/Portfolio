@@ -3,17 +3,17 @@
     height: 100%;
     width: 250px;
     position: fixed;
-    z-index: 1;
+    z-index: 100;
     top: 0;
-    left: -250px;
+    right: -250px;
     background-color: #202020;
-    opacity: 90%;
+    opacity: 99%;
     padding-top: 60px;
-    transition: left 0.5s ease;
+    transition: right 0.5s ease;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 35px 0px 6px 63px;
     text-decoration: none;
     font-size: 25px;
     color: #ededed;
@@ -28,11 +28,11 @@
 }
 
 .sidenav.active {
-    left: 0;
+    right: 0;
 }
 
 .closeLink.active{
-    left: 0;
+    right: 0;
 }
 
 .sidenav .close {

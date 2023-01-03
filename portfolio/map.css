@@ -1,34 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,700&display=swap');
 
-@media only screen and (max-width: 1173px){
-    body{
-        overflow: auto!important;
-    }
-    .image{
-        height: 252px!important;
-        width: 487px!important;
-    }
-    .txtLI{
-        display: none!important;
-    }
-    .svgBurger{
-        display: flex!important;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .image{
-        height: 162px!important;
-        width: 291px!important;
-    }
-    .txt {
-        width: 313px!important;
-    }
-    .titre {
-        font-size: 34px!important;
-    }
-}
-
 body{
     padding: 0;
     margin: 0;
@@ -167,3 +138,37 @@ a, a:visited, a:focus, a:link{
     color: #FFFFFF;
     margin: 5px;
 }
+
+/* MEDIAS QUERY */
+@media only screen and (max-width: 1500px){
+    body{
+        overflow: auto!important;
+    }
+}
+
+@media only screen and (max-width: 1173px){
+    .image{
+        height: 252px!important;
+        width: 487px!important;
+    }
+    .txtLI{
+        display: none!important;
+    }
+    .svgBurger{
+        display: flex!important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .image{
+        height: 162px!important;
+        width: 291px!important;
+    }
+    .txt {
+        width: 313px!important;
+    }
+    .titre {
+        font-size: 34px!important;
+    }
+}
+/* FIN MEDIAS QUERY */
