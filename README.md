@@ -1,4 +1,5 @@
-<img src="https://user-images.githubusercontent.com/97635006/210299511-758b911c-734e-4727-862f-28e87912da87.png" data-canonical-src="https://user-images.githubusercontent.com/97635006/210299511-758b911c-734e-4727-862f-28e87912da87.png" width="70" height="70" />
+<img src="![YC-Icone](https://user-images.githubusercontent.com/97635006/210299787-2bbbad36-bb5a-4de9-8fa9-f7de8bfc8d65.png)" width="70" height="70" />
+
 ---
 # Mon site portfolio
 ![image](https://user-images.githubusercontent.com/97635006/210194444-8233cdd2-7750-4cac-b218-762b56d00348.png)
