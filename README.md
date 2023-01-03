@@ -12,5 +12,6 @@
 ## Mes objectifs concernant ce portfolio
 - [x] Mieux comprendre la logique de flexbox
 - [x] Pratiquer les medias query
+- [x] Pratiquer du JavaScript
 - [ ] Optimiser le code
 - [x] Prendre du bon temps à coder ce portfolio
