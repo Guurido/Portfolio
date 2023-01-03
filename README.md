@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/97635006/210298605-ec78ef10-b664-493f-88ae-e419f0abea13.png" width="50" height="50">
+<img src="https://user-images.githubusercontent.com/97635006/210298605-ec78ef10-b664-493f-88ae-e419f0abea13.png" width="70" height="70">
 ---
 # Mon site portfolio
 ![image](https://user-images.githubusercontent.com/97635006/210194444-8233cdd2-7750-4cac-b218-762b56d00348.png)
