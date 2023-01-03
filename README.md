@@ -1,4 +1,4 @@
-<img src="https://user-images.githubusercontent.com/97635006/210299870-185f4081-84bc-428e-b0fc-226c710a81e1.png" width="70" height="70" />
+<img src="https://user-images.githubusercontent.com/97635006/210299870-185f4081-84bc-428e-b0fc-226c710a81e1.png" width="70" height="70" align-items="center"/>
 
 ---
 # Mon site portfolio
