@@ -8,6 +8,25 @@
         height: 252px!important;
         width: 487px!important;
     }
+    .txtLI{
+        display: none!important;
+    }
+    .svgBurger{
+        display: flex!important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .image{
+        height: 162px!important;
+        width: 291px!important;
+    }
+    .txt {
+        width: 313px!important;
+    }
+    .titre {
+        font-size: 34px!important;
+    }
 }
 
 body{
@@ -62,10 +81,15 @@ a, a:visited, a:focus, a:link{
     margin-right: 15px;
 }
 
-
 .txtLI:hover{
     transition: 0.2s;
     transform: scale(1.1);
+}
+
+.svgBurger{
+    height: 42px;
+    width: 59px;
+    display: none;
 }
 /* FIN NAVBAR */
 
