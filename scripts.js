@@ -45,3 +45,7 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
+
+function closeNavByLinks() {
+  sidenav.classList.remove("active");
+}

@@ -31,6 +31,10 @@
     left: 0;
 }
 
+.closeLink.active{
+    left: 0;
+}
+
 .sidenav .close {
     position: absolute;
     top: 0;

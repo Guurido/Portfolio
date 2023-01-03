@@ -81,6 +81,11 @@ a, a:visited, a:focus, a:link{
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
     margin-top: 25px;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .titre{
