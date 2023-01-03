@@ -1,4 +1,4 @@
-<img src="![YC-Icone](https://user-images.githubusercontent.com/97635006/210299787-2bbbad36-bb5a-4de9-8fa9-f7de8bfc8d65.png)" width="70" height="70" />
+<img src="![YC-Icone]" width="70" height="70" />
 
 ---
 # Mon site portfolio
