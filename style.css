@@ -504,4 +504,21 @@ h1{
     -ms-user-select: none;
     user-select: none;
 }
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.txtCopyright{
+    font-size: 16px;
+    color: #e6e6e6;
+    margin-top: -110px;
+    margin-bottom: 55px;
+}
 /* FIN FOOTER */
