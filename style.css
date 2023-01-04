@@ -94,6 +94,12 @@ a, a:visited, a:focus, a:link{
     margin-right: 15px;
 }
 
+.navbarLinks{
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: normal;
+    margin-right: 15px;
+}
 
 .txtLI:hover{
     transition: 0.2s;
