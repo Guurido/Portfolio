@@ -251,6 +251,12 @@ h1{
     margin-bottom: -25px;
 }
 
+.underline{
+    display: inline-block;
+    text-decoration: underline;
+    text-underline-offset: 15px;
+}
+
 .txt-aPropos{
     color: #FFFFFF;
     margin-right: 36px;
