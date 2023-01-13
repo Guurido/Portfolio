@@ -101,9 +101,13 @@ a, a:visited, a:focus, a:link{
     margin-right: 15px;
 }
 
-.txtLI:hover{
-    transition: 0.2s;
-    transform: scale(1.1);
+.navbarLinks:hover{
+    --color: #FFFFFF;
+    --position: center bottom;
+    --width: 40px;
+    --height: 3px;
+    padding-bottom: 5px;
+    background: linear-gradient(var(--color), var(--color)) var(--position) / var(--width) var(--height) no-repeat;
 }
 
 .svgBurger{
@@ -164,8 +168,8 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 100px;
-    margin-top: 175px;
+    padding: 4%;
+    margin-top: 13%;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -234,9 +238,9 @@ h1{
 /* FIN BUTTON */
 
 .conteneur-wai{
-    margin-top: 38px;
-    margin-bottom: 300px;
-    padding: 30px;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    padding: 2%;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -314,12 +318,8 @@ h1{
 .projetConteneur{
     display: flex;
     justify-content: center;
-    margin-bottom: 400px;
+    margin-bottom: 20%;
     flex-wrap: wrap;
-}
-
-.project{
-    scroll-snap-align: start;
 }
 
 /* CARDS */

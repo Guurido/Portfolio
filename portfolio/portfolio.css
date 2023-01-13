@@ -85,7 +85,7 @@ a, a:visited, a:focus, a:link{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
-    margin-top: 25px;
+    margin-top: 1%;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -150,6 +150,7 @@ a, a:visited, a:focus, a:link{
     .image{
         height: 252px!important;
         width: 487px!important;
+        margin-top: 5%;
     }
     .txtLI{
         display: none!important;
