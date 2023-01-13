@@ -383,6 +383,10 @@ h1{
     max-width: 100%;
     height: auto;
 }
+
+.bottom-project{
+    margin-top: 8%;
+}
 /* FIN CARDS */
 
 /* FOOTER */
@@ -458,12 +462,18 @@ h1{
 /* FIN FOOTER */
 
 /* MEDIAS QUERY */
+@media only screen and (max-width: 1400px){
+    .bottom-project{
+        margin-top: 0px!important;
+    }
+}
+
 @media only screen and (max-width: 1173px) { 
     .navbar{
         position: initial!important;
     }
     .p-conteneur{
-        margin-top: -30px!important;
+        margin-top: 15%!important;
     }
     .sousConteneur{
         display: flex;
@@ -501,9 +511,13 @@ h1{
     .titre-main{
         font-size: 3.438rem!important;
     }
+    .p-conteneur{
+        margin-top: 10%!important;
+        margin-bottom: 30%;
+    }
     .txtPresentation{
         margin-top: 3.438rem;
-        font-size: 1.063rem!important;
+        font-size: 1.313rem!important;
     }
     .titreh2{
         font-size: 2.438rem;
