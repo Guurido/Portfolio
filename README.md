@@ -16,5 +16,5 @@
 - [x] Mieux comprendre la logique de flexbox
 - [x] Pratiquer les medias query
 - [x] Pratiquer du JavaScript
-- [x] Optimiser le code
+- [ ] Optimiser le code
 - [x] Prendre du bon temps à coder ce portfolio
