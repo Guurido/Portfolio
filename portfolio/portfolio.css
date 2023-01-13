@@ -85,7 +85,7 @@ a, a:visited, a:focus, a:link{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap-reverse;
-    margin-top: 1%;
+    margin-top: 3%;
     -webkit-user-select: none;
     -webkit-touch-callout: none;
     -moz-user-select: none;
@@ -103,6 +103,7 @@ a, a:visited, a:focus, a:link{
 .txt{
     color: #FFFFFF;
     width: 700px;
+    margin-bottom: 5%;
 }
 
 .logoSVG{
