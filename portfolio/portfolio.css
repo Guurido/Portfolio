@@ -41,7 +41,7 @@ body::-webkit-scrollbar-thumb {
 
 /* NAVBAR */
 .hyperliens{
-    display: inline-flex;
+    display: inline-flex;d
     list-style-type: none;
     margin-right: 10px;
     cursor: pointer;
