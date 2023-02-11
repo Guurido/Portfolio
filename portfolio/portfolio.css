@@ -29,11 +29,6 @@ body::-webkit-scrollbar-thumb {
 }
 /* FIN SCROLLBAR */
 
-.wp{
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
 .conteneurWP{
     display: flex!important;
     flex-direction: column;
