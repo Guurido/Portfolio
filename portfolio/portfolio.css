@@ -30,8 +30,8 @@ body::-webkit-scrollbar-thumb {
 /* FIN SCROLLBAR */
 
 .wp{
-    overflow-y: scroll;
-    overflow-x: hidden;
+    overflow-y: scroll!important;
+    overflow-x: hidden!important;
 }
 
 .conteneurWP{
