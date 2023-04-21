@@ -269,7 +269,8 @@ h1{
 
 .txt-aPropos{
     color: #FFFFFF;
-    margin-right: 36px;
+    margin-right: 1.125rem;
+    font-size: 19px;
     text-align: end;
 }
 
