@@ -60,6 +60,16 @@ body::-webkit-scrollbar-thumb {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    animation: slide-down 0.7s;
+}
+
+@keyframes slide-down{
+    from{
+        margin-top: -100%;
+    }
+    to{
+        margin-bottom: 100%;
+    }
 }
 
 .drapeau{
@@ -175,6 +185,16 @@ h1{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    animation: txtSlideIn 0.8s;
+}
+
+@keyframes txtSlideIn {
+    from{
+        margin-left: -100%;
+    }
+    to{
+        margin-right: 0%;
+    }
 }
 /* FIN NEON EFFECT */
 
