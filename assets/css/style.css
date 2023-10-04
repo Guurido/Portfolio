@@ -31,6 +31,21 @@ body::-webkit-scrollbar-thumb {
         inset 0 0 1.3rem #bc13fe;
 }
 
+/* AVATARS */
+.acceuil-conteneur{
+    display: flex;
+    align-items: center;
+}
+
+.conteneur-contact-avatar{
+    display: block;
+    justify-content: center;
+    z-index: -9999999;
+    position: absolute;
+    left: 1024px;
+}
+/* FIN AVATARS */
+
 .wave{
     margin-bottom: 100px;
     margin-top: -152px;
@@ -486,11 +501,17 @@ h1{
     .bottom-project{
         margin-top: 0px!important;
     }
+    .conteneur-contact-avatar{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 1173px) { 
     .navbar{
         position: initial!important;
+    }
+    .avatar-conteneur{
+        display: none;
     }
     .p-conteneur{
         margin-top: 15%!important;
