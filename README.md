@@ -3,7 +3,7 @@
 ---
 
 # Mon site portfolio
-![image]![image](https://github.com/Guurido/Portfolio/assets/97635006/c03de777-e830-4469-a278-22809000c200)
+![image](https://github.com/Guurido/Portfolio/assets/97635006/c03de777-e830-4469-a278-22809000c200)
 
 
 ---
