@@ -429,7 +429,6 @@ h1{
 .conteneur-contact{
     margin-bottom: 200px;
     display: flex;
-    padding: 30px;
     justify-content: center;
 }
 
@@ -493,7 +492,6 @@ h1{
     font-size: 1rem;
     color: #e6e6e6;
     margin-top: -110px;
-    margin-bottom: 55px;
 }
 /* FIN FOOTER */
 
